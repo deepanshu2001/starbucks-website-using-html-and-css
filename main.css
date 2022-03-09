@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('starbucks.png');
+    
+    color: white;
+}
+
+.left{
+    display: inline-block;
+}
+
+.left img{
+    width: 107px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.mid{
+    margin: -70px 536px;
+    font-size: 24px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar li a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+.right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 14px 10px;
+}
+.btn{
+    width: 66px;
+    height: 25px;
+    border-radius: 11px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+    color: grey;
+    cursor: pointer;
+    height: 29px;
+}
+
+.container{
+    width: 337px;
+    height: 325px;
+    margin: 189px 101px;
+    padding: 3px;
+    border-radius: 25px;
+    border: 2px solid white;
+    
+}
+.container h1{
+    text-align: center;
+    font-size: 23px;
+}
+
+.container input{
+    text-align: center;
+    margin: 14px 50px;
+    width: 228px;
+    height: 31px;
+    border-radius: 11px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#search{
+    margin: auto 123px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (min-width:250px) and (max-width:300px){
+    .left img{
+        width: 80px;
+
+    }
+    .mid{
+        display: flex;
+        margin: 9px 45px;
+        font-size: 16px;
+        padding: 1px;
+    }
+    .navbar{
+        padding: 21px;
+    }
+    .navbar li{
+        padding: 12px;
+    }
+    .container{
+        width: 161px;
+        margin: -2px 53px;
+        border: 2px solid #a2cba2;
+    }
+    .container input{
+        width: 121px;
+        margin: 14px 21px;
+        font-size: 10px;
+
+    }
+    #search{
+        margin: auto 48px;
+    }
+    .container h1{
+        color: #ea9841;
+        font-size: 14px;
+    }
+    footer{
+        text-align: center;
+        margin: 38px 80px;
+        font-size: 9px;
+    }
+    
+}
+
+
+@media screen and (min-width:550px) and (max-width:600px) {
+    .left img{
+        width: 90px;
+    }
+    .mid{
+        margin: -59px 66px;
+        font-size: 21px;
+    }
+    .container{
+        width:351px;
+        margin: 142px 117px;
+        border: 2px solid #fdb801;
+    }
+    .container h1{
+        color: #b95101;
+    }
+    footer h2{
+        margin: 1px 1px;
+    }
+
+
+}
